@@ -6,7 +6,6 @@ import {
   BsGithub,
   BsDiscord,
   BsSpotify,
-  BsYoutube,
 } from "react-icons/bs";
 import { footerLinks, lowercaseFooterLinks } from "../data/navBarLinks";
 
@@ -54,15 +53,6 @@ export default function Footer() {
             className="text-black"
           >
             <BsDiscord size="20"></BsDiscord>
-          </a>
-          <a
-            // Links to nonexistent channel, will need to update when we have a valid channel 
-            href="https://www.youtube.com/@codifyberkeley"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-black"
-          >
-            <BsYoutube size="20"></BsYoutube>
           </a>
           <a
             href="https://open.spotify.com/playlist/3DVxp7bz1heKBx6S2hEmAY"
